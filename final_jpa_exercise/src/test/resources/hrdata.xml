@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset>
+
+    <department id="1001" name="IT" version="1" />
+    <department id="1002" name="HR" version="1" />
+    <department id="1003" name="Sales" version="1" />
+    <department id="1004" name="Category Management" version="1" />
+    <department id="1005" name="Logistics" version="1" />
+
+    <address id="1001" city="Bern" street="Bahnhofstrasse 233" zip="3000" state="BE" version="1" />
+    <address id="1002" city="Genf" street="Hauptstrasse 233" zip="1200" state="GE" version="1" />
+    <address id="1003" city="Basel" street="Hohlstrasse 233" zip="4000" state="BS" version="1" />
+    <address id="1004" city="Thun" street="Oberdorfstrasse 233" zip="3600" state="BE" version="1" />
+    <address id="1005" city="Zürich" street="Landstrasse 233" zip="8000" state="ZH" version="1" />
+    <address id="1006" city="Bern" street="Genferstrasse 233" zip="3000" state="BE" version="1" />
+    <address id="1007" city="Spiez" street="Baslerstrasse 233" zip="3700" state="BE" version="1" />
+    <address id="1008" city="Brig" street="Bernerstrasse 233" zip="3900" state="VS" version="1" />
+
+    <employee id="1001" name="König Mark" salary="90000" department_id="1003" address_id="1001" version="1" />
+    <employee id="1002" name="Milieu Heinz" salary="100000" department_id="1001" boss_id="1001" address_id="1001" version="1" />
+    <employee id="1003" name="Meier Franz" salary="120000" department_id="1001"  boss_id="1001" address_id="1002" version="1" />
+    <employee id="1004" name="Müller Kurt" salary="130000" department_id="1002"  boss_id="1002" address_id="1003" version="1" />
+    <employee id="1005" name="Leu Hans" salary="140000" department_id="1003"  boss_id="1003" address_id="1004" version="1" />
+    <employee id="1006" name="Keller Urs" salary="80000" department_id="1002"  boss_id="1003" address_id="1005" version="1" />
+    <employee id="1007" name="Allemann Ives" salary="98000" department_id="1004"  boss_id="1003" address_id="1006" version="1" />
+
+    <phone id="1001" phonenumber="067 667 88 77" type="HOME" employee_id="1001" version="1" />
+    <phone id="1002" phonenumber="067 667 88 77" type="WORK" employee_id="1001" version="1" />
+    <phone id="1003" phonenumber="067 667 34 77" type="MOBILE" employee_id="1001" version="1" />
+    <phone id="1004" phonenumber="067 645 88 77" type="HOME" employee_id="1002" version="1" />
+    <phone id="1005" phonenumber="067 612 56 77" type="HOME" employee_id="1003" version="1" />
+    <phone id="1006" phonenumber="067 667 78 67" type="HOME" employee_id="1004" version="1" />
+
+    <project id="1001" dtype="SoftwareProject" name="ZLD" version="1" />
+    <project id="1002" dtype="SoftwareProject" name="RCS" version="1" />
+
+    <platform id="1001" dtype="JavaEE" name="JBoss" monthlycosts="123.45" version="1" />
+    <platform id="1002" dtype="JavaSE" name="Tomcat" monthlycosts="111.00" version="1" />
+
+    <product id="1001" name="ZLD" platform_id="1001" productowner_id="1001" version="1" />
+    <product id="1002" name="RCS" platform_id="1002" productowner_id="1002" version="1" />
+
+    <softwareproject id="1001" programminglanguage="Java" product_id="1001" />
+    <softwareproject id="1002" programminglanguage="Java" product_id="1002" />
+
+    <projectcollaboration id="1001" employee_id="1001" project_id="1001" projectrole="BA" fromdate="2013-10-01" todate="2013-12-31" version="1" />
+
+</dataset>
